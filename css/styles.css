@@ -6,10 +6,13 @@
 
 body {
     font-family: Montserrat;
+    font-size: 1rem;
     text-align: center;
     line-height: 2;
 }
-
+p{
+    font-size: 1.2rem;
+}
 h1 {
     font-weight: 900;
     font-size: 3rem;
@@ -77,6 +80,7 @@ h1 {
 
 /* Features Section */
 #features h3 {
+    font-size: 1.8rem;
     font-family: Ubuntu;
     font-weight: 600;
 }
@@ -139,6 +143,7 @@ h1 {
 
 /* call to action */
 #cta h2{
+    font-size: 2.4rem;
     text-align: left;
     line-height: 2;
     padding: 0;
@@ -161,6 +166,8 @@ h1 {
 #footer i:hover{
     color: #1b5ee3;
 }
+
+
 /*----------------------Section----------------------------*/
 #title{
     padding: 3% 10% 7%;
@@ -175,4 +182,20 @@ h1 {
 #footer{
     padding:4% 0 3%;
     color: #8c8c8c;
+}
+
+/*Media query*/
+@media (max-width:700px){
+    p{
+        font-size: 1.5rem;
+    }
+    .footer-text{
+        font-size: 1.4rem;
+    }
+    #footer i{
+        font-size: 2em;
+    }
+    #details h2{
+        top:1rem;
+    }
 }
