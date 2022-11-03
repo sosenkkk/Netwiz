@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    text-align: center;
+    line-height: 2;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+/*-----------------------Class----------------------------*/
+.colored-blue{
+    color: #fedb39;
+    background-color: #1746a2;
+}
+.colored-grey{
+    background-color: #ebebeb
+}
+.not-colored {
+    background-color: white;
+}
+
+.padded-r-l {
+    padding: 7% 10%;
+}
+
+/* Navbar */
+.navbar {
+    font-family: Ubuntu, sans-serif;
+    padding: 0 0 3rem 0;
+}
+
+.nav-link {
+    margin: 0 15px 0 15px;
+    color: #fedb39;
+    font-size: 1.1rem;
+}
+
+.navbar-brand {
+    color: #fedb39;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/*Title section*/
+.main_header {
+    margin-top: 1em;
+}
+
+.header_img {
+    margin: 10% 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.flex-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dbutton {
+    margin: 3% 2% 0 2%;
+}
+
+.dbutton:hover {
+    color: #1746a2;
+}
+
+
+/* Features Section */
+#features h3 {
+    font-family: Ubuntu;
+    font-weight: 600;
+}
+
+#features i {
+    color: #022468;
+    padding: 0.6em;
+}
+
+#features i:hover {
+    color: #1a50bb;
+}
+
+.feature-box {
+    padding: 1.5rem 1rem;
+}
+
+
+/* Carousel */
+#details img {
+    border-radius: 10%;
+    margin-top: 2em;
+    width: 80%;
+    max-width: 500px;
+}
+
+#details h2 {
+    font-size: 3.5rem;
+    position: relative;
+    top: 4rem;
+    font-weight: 600;
+}
+
+#details h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#details p {
+    color: #fff;
+    font-family: Montserrat;
+}
+
+/* Pricing */
+.price-header{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.price-item{
+    padding: 7% 3% 1%;
+}
+
+#pricing h3,h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#pricing h2{
+    text-decoration: underline;
+}
+
+/* call to action */
+#cta h2{
+    text-align: left;
+    line-height: 2;
+    padding: 0;
+}
+#cta p{
+    text-align: left;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}
+.cta-download{
+    padding: 3%;
+}
+
+/* Footer */
+#footer i{
+    padding: 1%;
+    color: #003f5a;
+}
+#footer i:hover{
+    color: #1b5ee3;
+}
+/*----------------------Section----------------------------*/
+#title{
+    padding: 3% 10% 7%;
+}
+
+#details {
+    font-family: Ubuntu;
+    color: #f3d967;
+    background-color: #0c8dc5;
+}
+
+#footer{
+    padding:4% 0 3%;
+    color: #8c8c8c;
+}
